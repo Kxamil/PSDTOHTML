@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Spartan&display=swap');
+/* font-family: 'Spartan',; */
+@import url('https://fonts.googleapis.com/css?family=Spartan:200&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif, 'Spartan';
+    background-color: rgb(235, 232, 232)fff;
+}
+
+.shape11,
+.shape12,
+.shape13,
+.shape14,
+.shape15 {
+    display: block;
+}
+
+.shape11 {
+    position: absolute;
+    width: 370px;
+    height: 350px;
+    top: 0;
+    left: 0;
+}
+
+.shape12 {
+    position: absolute;
+    width: 370px;
+    height: 350px;
+    transform: rotate(8deg);
+    top: 55px;
+    left: 0;
+}
+
+.shape13 {
+    position: absolute;
+    width: 100px;
+    height: 310px;
+    top: 54px;
+    left: 0;
+}
+
+.shape14 {
+    position: absolute;
+    width: 155px;
+    height: 450px;
+    transform: rotate(5deg);
+    top: 69px;
+    right: -25px;
+}
+
+.shape15 {
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    transform: rotate(-25deg);
+    bottom: -320px;
+    left: -50px;
+}
+
+.shapes {
+    display: block;
+    position: relative;
+    width: 400px;
+    height: 375px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.logo_company {
+    display: block;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 11%;
+    left: 12%;
+}
+
+.company {
+display: block;
+}
+
+.company__title {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 25px;
+    top: 10%;
+    left: 30%;
+}
+
+.company__desc {
+    position: absolute;
+    color: rgb(148, 148, 148);
+    text-transform: uppercase;
+    font-size: 14px;
+    top: 15%;
+    left: 32%;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40%;
+    background-image: url('nametab.png');
+    background-repeat: no-repeat;
+    background-position: 12% -10%;
+}
+
+.co-name {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.first_name, .work {
+    text-align: left;
+    margin: 2px 0 2px;
+    text-transform: uppercase;
+}
+
+.awarded {
+    font-family: 'Spartan',
+    sans-serif;
+    font-weight: 100;
+    font-size: 22px;
+}
+
+.first_name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.work {
+    color: rgb(71, 71, 71);
+    text-indent: -28px;
+    font-size: 15px;
+    font-family: 'Spartan',
+    sans-serif;
+    font-weight: 100;
+}
