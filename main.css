@@ -51,16 +51,16 @@ body {
     width: 155px;
     height: 450px;
     transform: rotate(5deg);
-    top: 69px;
-    right: -25px;
+    top: 88px;
+    right: 10px;
 }
 
 .shape15 {
     position: absolute;
     width: 330px;
     height: 330px;
-    transform: rotate(-25deg);
-    bottom: -320px;
+    transform: rotate(-15deg);
+    bottom: -420px;
     left: -50px;
 }
 
@@ -72,10 +72,12 @@ body {
 }
 
 .container {
-    width: 100vw;
-    height: 100vh;
+    position: relative;
+    max-width: 360px;
+    max-height: 900px;
     overflow: hidden;
 }
+
 
 .logo_company {
     display: block;
@@ -87,7 +89,9 @@ body {
 }
 
 .company {
-display: block;
+    display: block;
+    height: 390px;
+    width: 360px;
 }
 
 .company__title {
@@ -121,7 +125,7 @@ display: block;
     background-position: 12% -10%;
 }
 
-.co-name {
+.ceo-name {
     display: flex;
     align-items: center;
     align-content: center;
@@ -155,4 +159,54 @@ display: block;
     font-family: 'Spartan',
     sans-serif;
     font-weight: 100;
+}
+
+.data {
+    position: relative;
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    align-items: center;
+    bottom: 30%;
+}
+
+.address {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    top: 15%;
+    left: 9.55%;
+}
+
+.data__address {
+    margin: 12px 0 12px;
+    font-size: 1.15rem;
+    text-indent: 40px;
+}
+
+.location {
+    background-image: url('./Location.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.number {
+    background-image: url('./Phone.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.email {
+    background-image: url('./Email.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.website {
+    background-image: url('./Web.png');
+    background-repeat: no-repeat;
+    background-size: contain;
 }
